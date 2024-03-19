@@ -1,0 +1,130 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf4fe;
+}
+header {
+    background-color: #0d023b;
+    padding: 20px 0;
+}
+.caja{
+    position: relative;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+}
+.encriptadorTexting{
+    padding: 3em 0;
+}
+.contenido-Texting{
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.DivSource{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    height:300px ; 
+    border: 0px ;
+}
+.textSource{
+    width: 99%;
+    height:80% ;
+    background-color: rgba(255, 255, 255, 0.5); /* Relleno blanco con 50% de opacidad */
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    color: #265783"
+}
+.textSource:active{
+    border-color:#c78c19;
+}
+
+.textSource:hover{
+    border-color:#c78c19;
+}
+
+button{
+    width: 40%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;    
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.comandos{
+    text-align: center;
+}
+
+.DivResult{
+    width: 30%;
+    vertical-align: top;   
+     float: right; 
+    height:300px ;   
+}
+
+.textResult{
+    width: 99%;
+    height:80% ;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    pointer-events: none;     
+}
+
+.Copiar{
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;    
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.Copiar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    padding:40px;
+}
+
+.copyright{
+    color:#0710b3;
+    font-size: 13px;
+    margin:20px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:480px){  
+    .caja, .contenido-Texting{
+        padding:0;
+        margin: 0;
+        text-align: center;
+        width: 90%;
+       
+    }
+    .DivSource, .DivResult{
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+}
+

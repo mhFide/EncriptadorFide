@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador Fide</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <header>
+        <div class="caja">
+                <h1>Encriptador Alura</h1>
+        </div>
+    </header>
+    <main>
+        <section class="encriptadorTexting">
+            <div class="contenido-Texting">
+               <div class="DivSource"><textarea id="textoOriginal" class="textSource" placeholder="Ingrese el texto aqui"></textarea>
+                   <div class="comandos">
+                        <button id="botonEncriptar">Encriptar</button>
+                        <button id="botonDesEncriptar">Desencriptar</button>
+                    </div> 
+                </div><div class="DivResult"><textarea  id="textoEncriptado" class="textResult" readonly></textarea>
+                    <div class="comandos"><button id="btnCopiar" class="Copiar texto">Copiar</button></div></div>
+                </div> 
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Developer System - 2024</p>
+    </footer>
+</body>
+</html>
+<script src="script.js"></script>
